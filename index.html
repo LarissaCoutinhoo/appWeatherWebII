@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Weather</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div id="app">
-        <h1>Aplicativo de Clima</h1>
+    <div id="app" class="container">
+        <h1>Weather App</h1>
         <div id="weather">
-            <h2>Clima Atual</h2>
+            <h2>Confira como está o clima nesse momento</h2>
             <form @submit.prevent="fetchWeather">
                 <label for="city">Busque por uma cidade:</label>
                 <input type="text" id="city" v-model="city" placeholder="Ex: Franca">
@@ -25,6 +26,9 @@
                 <p>{{ loadingMessage }}</p>
             </div>
         </div>
+    </div>
+    <div class="logo">
+        <img src="img/logo.png" alt="Logo do app">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="index.js"></script>
