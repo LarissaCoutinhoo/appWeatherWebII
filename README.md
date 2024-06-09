@@ -23,11 +23,11 @@
 - Mensagem de orientação quando nenhum dado de clima é carregado.
 
 
-## Acesso ao Aplicativo
+**Acesso ao Aplicativo**
 
 Você pode acessar o site clicando [aqui](https://larissacoutinhoo.github.io/appweather-webII/) 
 
-## Screenshots para demonstração
+**Screenshots para demonstração**
 
 ![](https://github.com/LarissaCoutinhoo/appweather-webII/blob/main/img/printtelainicial.png)
 ![](https://github.com/LarissaCoutinhoo/appweather-webII/blob/main/img/printbusca.png)
