@@ -30,5 +30,5 @@ Você pode acessar o site clicando [aqui](https://larissacoutinhoo.github.io/app
 **Screenshots para demonstração**
 
 ![](https://github.com/LarissaCoutinhoo/appweather-webII/blob/main/img/printtelainicial.png)
-![](https://github.com/LarissaCoutinhoo/appweather-webII/blob/main/img/printbusca.png)
+![](https://github.com/LarissaCoutinhoo/appweather-webII/blob/main/img/printbuscarj.png)
 
