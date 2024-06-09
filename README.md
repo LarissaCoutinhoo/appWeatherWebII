@@ -4,7 +4,7 @@
 
 ## Acesso ao Aplicativo
 
-Você pode acessar o site clicando [aqui](#) (link).
+Você pode acessar o site clicando [aqui](https://larissacoutinhoo.github.io/appweather-webII/) 
 
 ## Screenshots para demonstração
 
