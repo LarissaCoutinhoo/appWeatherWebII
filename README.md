@@ -1,4 +1,4 @@
-**Weather App**
+## Weather App
 
 É um site desenvolvido com Vue.js, que utiliza a API OpenWeatherMap para obter dados de clima de cidades ao redor do mundo.
 
