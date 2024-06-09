@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Aplicativo de Clima</h1>
+        <div id="weather">
+            <h2>Clima Atual</h2>
+            <form @submit.prevent="fetchWeather">
+                <label for="city">Busque por uma cidade:</label>
+                <input type="text" id="city" v-model="city" placeholder="Ex: Franca">
+                <button type="submit">Obter Clima</button>
+            </form>
+            <div v-if="weatherData">
+                <p><strong>Cidade:</strong> {{ weatherData.name }}</p>
+                <p><strong>Temperatura:</strong> {{ weatherData.main.temp }}°C</p>
+                <p><strong>Descrição:</strong> {{ weatherData.weather[0].description_pt }}</p>
+            </div>
+            <div v-else>
+                <p>{{ loadingMessage }}</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
