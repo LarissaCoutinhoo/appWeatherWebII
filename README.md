@@ -2,6 +2,10 @@
 
 É um site desenvolvido com Vue.js, que utiliza a API OpenWeatherMap para obter dados de clima de cidades ao redor do mundo.
 
+**Acesso ao Site**
+
+Você pode acessar o site clicando [aqui](https://larissacoutinhoo.github.io/appWeatherWebII/) 
+
 **Tecnologias Utilizadas:**
 - HTML
 - CSS
@@ -21,11 +25,6 @@
 **Recursos Adicionais:**
 - Ícone personalizado na aba do navegador.
 - Mensagem de orientação quando nenhum dado de clima é carregado.
-
-
-**Acesso ao Aplicativo**
-
-Você pode acessar o site clicando [aqui](https://larissacoutinhoo.github.io/appweather-webII/) 
 
 **Screenshots para demonstração**
 
